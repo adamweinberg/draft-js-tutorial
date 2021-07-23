@@ -17,8 +17,9 @@ const RichTextEditor = () => {
 
   return (
     <div id='draft-editor'>
-      <label>rich text input field → </label>
       <Toolbar editorState={editorState} setEditorState={setEditorState}/>
+      <p></p>
+      <label>rich text input field → </label>
       <Editor editorState={editorState} onChange={setEditorState} handleKeyCommand={handleKeyCommand} />
     </div>
   )

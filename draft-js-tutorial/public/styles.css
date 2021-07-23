@@ -1,18 +1,26 @@
 body {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #draft-editor {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 div.DraftEditor-root {
   border: 1px solid black;
   margin-left: 4px;
-  width: 150px
+  width: 150px;
+  text-align: left;
+  padding: 2px
 }
 
 .toolbar-button-selected {
   background-color: lightgray;
+}
+
+#editor-toolbar {
+  flex-basis: 100%;
 }
