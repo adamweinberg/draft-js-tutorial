@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+}
+
+#draft-editor {
+  display: flex;
+  justify-content: center;
+}
+
+div.DraftEditor-root {
+  border: 1px solid black;
+  margin-left: 4px;
+  width: 150px
+}
+
+.toolbar-button-selected {
+  background-color: lightgray;
+}
